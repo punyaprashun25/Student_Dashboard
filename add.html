@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Student</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <h2 class="heading">Add New Student Details</h2>
+    <a href="index.html" class="back">Back</a>
+    <form action="index.html" method="post" id="addStudent">
+        <div class="input-box">
+            <label for="name" class="label">Name</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div class="input-box">
+            <label for="roll_no" class="label">Roll No</label>
+            <input type="text" name="roll_no" id="roll_no" required>
+        </div>
+        <div class="input-box">
+            <label for="email" class="label">Email ID</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <input type="submit" value="Add Student" id="btn">
+    </form>
+    <script src="add_student.js"></script>
+</body>
+</html>
