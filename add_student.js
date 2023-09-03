@@ -20,6 +20,10 @@ async function submitForm(e) {
   let result = await fetchRes.json();
   console.log(result);
 
+  document.getElementById("name").value = "";
+  document.getElementById("roll_no").value = "";
+  document.getElementById("email").value = "";
+
   // for redirect after adding student
   // location.replace("index.html");
 }
